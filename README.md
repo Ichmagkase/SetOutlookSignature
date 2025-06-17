@@ -8,7 +8,7 @@ Pull user attributes from Active Directory to build an email signaure based on a
 
 **FILES:** <br>
 SetOutlookSignature.ps1  <br>
-README.htm            <br>   
+README.htm            
 README.txt  <br>             
 template.htm <br>                    
 
