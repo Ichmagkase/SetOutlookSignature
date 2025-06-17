@@ -31,8 +31,8 @@ E-mail            : mail
 ### Single attribute line
 
 **FILES:** <br>
-&nbsp;&nbsp;SetOutlookSignature.ps1
-&nbsp;&nbsp;template.htm  
+SetOutlookSignature.ps1
+template.htm  
 
 **template.htm:** <br>
 Create an arbitrary name for the segment, "NEWVAL_SEG" for example,   
