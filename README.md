@@ -24,7 +24,7 @@ State/Province    : st <br>
 Zip/Postal Code   : postalCode <br>      
 Telephone number  : telephoneNumber <br>  
 Mobile            : mobile <br>
-E-mail            : mail <br>
+E-mail            : mail
 
 *Note: The script will only utilize attributes that the User has in the Domain*
 ## MODIFYING THE SIGNATURE
