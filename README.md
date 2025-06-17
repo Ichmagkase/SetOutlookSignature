@@ -21,8 +21,8 @@ Office            : physicalDeliveryOfficeName <br>
 Street            : streetAddress <br>
 City              : l <br>
 State/Province    : st <br>
-Zip/Postal Code   : postalCode <br>      
-Telephone number  : telephoneNumber <br>  
+Zip/Postal Code   : postalCode      
+Telephone number  : telephoneNumber 
 Mobile            : mobile <br>
 E-mail            : mail
 
