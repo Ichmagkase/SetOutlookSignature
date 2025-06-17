@@ -22,7 +22,7 @@ Street            : streetAddress <br>
 City              : l <br>
 State/Province    : st <br>
 Zip/Postal Code   : postalCode      
-Telephone number  : telephoneNumber 
+Telephone number  : telephoneNumber <br>
 Mobile            : mobile <br>
 E-mail            : mail
 
