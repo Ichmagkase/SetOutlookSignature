@@ -109,6 +109,7 @@ Once a user logs out and logs back in, the signature will update automatically.
 &nbsp;&nbsp;template.htm
 
 **template.htm:**
+
 Create an arbitrary name for the segment, "NEWVAL_SEG" for example,
 and place it among the rest of the *_SEG lines in the order you would
 like to see them appear in the email signature.
@@ -119,6 +120,7 @@ and "EMAIL_SEG". The name of "WEBSITE_SEG" doesn't necessarily matter, but you w
 need this name later when updating SetOutlookSignature.ps1.
 
 **SetOutlookSignature.ps1:**
+
 Underneath "Define HTML segments", create a new segment definition by modifying the code below,
 replacing NEWVAL1, NEWVAL2, etc. by the attributes you would like to add, adding formatting as necessary:
 ```html
