@@ -6,13 +6,13 @@ Pull user attributes from Active Directory to build an email signaure based on a
 
 ## Info
 
-**FILES:**
+**FILES:** <br>
 SetOutlookSignature.ps1 
 README.htm              
 README.txt              
 template.htm                    
 
-**AD ATTRIBUTES:**
+**AD ATTRIBUTES:** <br>
 Display name      : displayName
 Job Title         : title
 Department        : department
@@ -30,11 +30,11 @@ E-mail            : mail
 ## MODIFYING THE SIGNATURE
 ### Single attribute line
 
-**FILES:**
+**FILES:** <br>
 &nbsp;&nbsp;SetOutlookSignature.ps1
 &nbsp;&nbsp;template.htm  
 
-**template.htm:**
+**template.htm:** <br>
 Create an arbitrary name for the segment, "NEWVAL_SEG" for example,   
 and place it among the rest of the *_SEG lines in the order you would
 like to see them appear in the email signature.
@@ -44,7 +44,7 @@ phone number and email, you would place "WEBSITE_SEG" between "MOBILE_PHONE_SEG"
 and "EMAIL_SEG". The name of "WEBSITE_SEG" doesn't necessarily matter, but you will
 need this name later when updating SetOutlookSignature.ps1.
 
-**SetOutlookSignature.ps1:**
+**SetOutlookSignature.ps1:** <br>
 Underneath "Define HTML segments", paste a new segment definition with the format:
 ```html
 $newAttributeSegment = @"
@@ -104,11 +104,11 @@ Once a user logs out and logs back in, the signature will update automatically.
 
 ### Multi-attribute line
 
-**FILES:**
+**FILES:** <br>
 &nbsp;&nbsp;SetOutlookSignature.ps1
 &nbsp;&nbsp;template.htm
 
-**template.htm:**
+**template.htm:** <br>
 
 Create an arbitrary name for the segment, "NEWVAL_SEG" for example,
 and place it among the rest of the *_SEG lines in the order you would
@@ -119,7 +119,7 @@ phone number and email, you would place "WEBSITE_SEG" between "MOBILE_PHONE_SEG"
 and "EMAIL_SEG". The name of "WEBSITE_SEG" doesn't necessarily matter, but you will
 need this name later when updating SetOutlookSignature.ps1.
 
-**SetOutlookSignature.ps1:**
+**SetOutlookSignature.ps1:** <br>
 
 Underneath "Define HTML segments", create a new segment definition by modifying the code below,
 replacing NEWVAL1, NEWVAL2, etc. by the attributes you would like to add, adding formatting as necessary:
