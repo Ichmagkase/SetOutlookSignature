@@ -1,7 +1,7 @@
 
 # SetOutlookSignature.ps1
 
-Pull user attributes from Active Directory to build an email signaure based on an html template.
+Pull user attributes from Active Directory to build an email signaure based on an html template. <br>
 *Note: It is intended that this script is implemented using Group Policy, and executed on the local machine on user sign in*
 
 ## Info
