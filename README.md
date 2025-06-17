@@ -7,24 +7,24 @@ Pull user attributes from Active Directory to build an email signaure based on a
 ## Info
 
 **FILES:** <br>
-SetOutlookSignature.ps1 
-README.htm              
-README.txt              
-template.htm                    
+SetOutlookSignature.ps1  <br>
+README.htm            <br>   
+README.txt  <br>             
+template.htm <br>                    
 
 **AD ATTRIBUTES:** <br>
-Display name      : displayName
-Job Title         : title
-Department        : department
-Company           : company
-Office            : physicalDeliveryOfficeName
-Street            : streetAddress
-City              : l
-State/Province    : st
-Zip/Postal Code   : postalCode      
-Telephone number  : telephoneNumber  
-Mobile            : mobile
-E-mail            : mail
+Display name      : displayName <br>
+Job Title         : title <br>
+Department        : department <br>
+Company           : company <br>
+Office            : physicalDeliveryOfficeName <br>
+Street            : streetAddress <br>
+City              : l <br>
+State/Province    : st <br>
+Zip/Postal Code   : postalCode <br>      
+Telephone number  : telephoneNumber <br>  
+Mobile            : mobile <br>
+E-mail            : mail <br>
 
 *Note: The script will only utilize attributes that the User has in the Domain*
 ## MODIFYING THE SIGNATURE
@@ -105,8 +105,8 @@ Once a user logs out and logs back in, the signature will update automatically.
 ### Multi-attribute line
 
 **FILES:** <br>
-&nbsp;&nbsp;SetOutlookSignature.ps1
-&nbsp;&nbsp;template.htm
+&nbsp;&nbsp;SetOutlookSignature.ps1 <br>
+&nbsp;&nbsp;template.htm <br>
 
 **template.htm:** <br>
 
