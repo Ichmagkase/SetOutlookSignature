@@ -5,8 +5,8 @@ Pull user attributes from Active Directory to build an email signaure based on a
 *Note: It is intended that this script is implemented using Group Policy, and executed on the local machine on user sign in*
 
 
-References:
-https://dev.to/jcoelho/how-to-deploy-email-signatures-through-group-policies-4aj1
+References: <br>
+José Coelho: https://dev.to/jcoelho/how-to-deploy-email-signatures-through-group-policies-4aj1
 ITHelpers: https://www.youtube.com/watch?app=desktop&v=Y3r2XWvsUl0
 
 ## Info
